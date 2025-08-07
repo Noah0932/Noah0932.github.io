@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>NoahのBlog</title>
+  
+  <subtitle>万物有灵且美，愿你我皆有光</subtitle>
+  <link href="https://hexo.noah0932.top/rss.xml" rel="self"/>
+  
+  <link href="https://hexo.noah0932.top/"/>
+  <updated>2025-08-06T13:31:51.237Z</updated>
+  <id>https://hexo.noah0932.top/</id>
+  
+  <author>
+    <name>Noah</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一文教你如何申请免费版的阿里企业邮箱</title>
+    <link href="https://hexo.noah0932.top/2025/08/06/%E4%B8%80%E6%96%87%E6%95%99%E4%BD%A0%E5%A6%82%E4%BD%95%E7%94%B3%E8%AF%B7%E5%85%8D%E8%B4%B9%E7%89%88%E7%9A%84%E9%98%BF%E9%87%8C%E4%BC%81%E4%B8%9A%E9%82%AE%E7%AE%B1/"/>
+    <id>https://hexo.noah0932.top/2025/08/06/%E4%B8%80%E6%96%87%E6%95%99%E4%BD%A0%E5%A6%82%E4%BD%95%E7%94%B3%E8%AF%B7%E5%85%8D%E8%B4%B9%E7%89%88%E7%9A%84%E9%98%BF%E9%87%8C%E4%BC%81%E4%B8%9A%E9%82%AE%E7%AE%B1/</id>
+    <published>2025-08-06T12:46:26.268Z</published>
+    <updated>2025-08-06T13:31:51.237Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本篇博客提到的企业邮箱指的是 按照自有域名开通的邮箱 比如我的<a href="mailto:&#x6e;&#x6f;&#x61;&#104;&#x40;&#x6e;&#111;&#97;&#104;&#x30;&#57;&#x33;&#x32;&#46;&#116;&#x6f;&#112;">noah@noah0932.top</a>和<a href="mailto:&#x6e;&#x6f;&#x61;&#104;&#64;&#99;&#x6e;&#109;&#110;&#x6d;&#x73;&#108;&#46;&#x62;&#97;&#98;&#x79;">noah@cnmnmsl.baby</a> ，简单来说就是可以用你自己的域名来搭建邮箱，可以绑定属于<a href="https://wanwang.aliyun.com/">自己的域名</a>，<strong>让你的邮箱更有标志性</strong>QWQ</p><p>而且还可以让吃灰超久的域名起死回生啦！(bushi</p><p>下面描述了阿里企业邮箱的优势特点（来源网络资料收集）</p><pre><code>稳定可靠，全球畅邮：基于阿里云强大的云计算基础设施（如自研飞天操作系统、遍布全球的数据中心节点）。具备高可用架构和容灾能力，邮件收发稳定快速，尤其在海外通信上有优化（如海外智能中继），有效解决跨境邮件延迟或退信问题。提供99.9%的服务可用性保障。强大的安全防护：反垃圾反病毒： 采用业界领先的智能反垃圾邮件引擎（基于大数据和AI学习），结合多层过滤策略，垃圾邮件拦截率高，误判率低。内置专业杀毒引擎，实时查杀邮件附件病毒。数据加密： 支持SSL/TLS加密传输（Webmail、POP3/SMTP/IMAP），保障邮件传输安全。邮件数据在服务器端也进行加密存储。企业级权限管理： 提供细粒度的管理权限分配（如分级管理员）、邮件审核（外发审核、敏感词审核）、邮件监控（合规审计需要）、邮件水印、登录二次验证（MFA）等功能，满足企业内控和合规要求。防泄漏： 可设置邮件禁止转发、复制、下载，添加阅读水印等，保护核心信息不外泄。专业高效的管理后台：提供功能丰富、界面直观的管理控制台。支持批量账号管理（增删改查、导入导出）、部门架构同步（支持与钉钉组织架构同步）、邮件列表/邮件组设置。具备邮件备份与归档功能（可选增值服务），满足企业数据留存和审计需求。详细的日志审计和报表分析（登录日志、收发日志、操作日志等）。大容量与高性能：提供充足的邮箱容量（不同套餐容量不同，可扩展），支持超大附件（如最高支持数GB的附件，通过超大附件或网盘链接方式）。优化的邮件系统架构，保证海量邮件处理速度和搜索效率。便捷的协作与移动办公：提供功能完善的Webmail界面，用户体验友好。完美兼容各类邮件客户端（Outlook, Foxmail, Apple Mail, Thunderbird等），支持POP3/IMAP/SMTP协议。与钉钉深度集成： 这是阿里云企业邮箱的一大亮点。用户可以直接在钉钉App中收发、处理企业邮箱邮件，无需单独安装邮箱App，实现办公入口统一，提升协作效率。企业管理员也可在钉钉管理后台便捷管理邮箱。提供官方的手机邮箱App（阿里邮箱App），支持多账号管理、邮件推送等。专业形象与域名定制：使用企业自己的域名作为邮箱后缀（如 yourname@yourcompany.com），提升企业专业形象和品牌识别度。支持个性化登录页定制。</code></pre><h1 id="申请"><a href="#申请" class="headerlink" title="申请"></a>申请</h1><p>虽然阿里云官网已隐藏免费版入口，但目前仍可免费开通QWQ</p><p>（有些阿里的老版界面-比如邮箱推送，还是会跳出来链接，但是走那里只能买付费版的了）</p><p><img src="https://cdn.tulan.cyou/noah/2025/07/27/41166fb2-c28e-45e7-939c-2b7839c167d2.png" alt="邮箱推送界面"></p><h2 id="准备措施："><a href="#准备措施：" class="headerlink" title="准备措施："></a>准备措施：</h2><p>一个阿里云账号（默认跳过申请步骤，需要进行<strong>个人实名认证或企业认证[1]</strong>）</p><p>一个你自己的域名（二级，多级均可）【没有的话建议去阿里注册一个.top，首年1RMB，续费建议转出到腾讯，太空船等更便宜】</p><p>域名建议接入阿里的dns解析，可以一键设置解析</p><h2 id="1-登录你的阿里云账号"><a href="#1-登录你的阿里云账号" class="headerlink" title="1.登录你的阿里云账号"></a>1.登录你的阿里云账号</h2><p>打开<a href="https://home.console.aliyun.com/">https://home.console.aliyun.com/</a>，登录你的阿里云账号</p><h2 id="2-购买免费版套餐"><a href="#2-购买免费版套餐" class="headerlink" title="2.购买免费版套餐"></a>2.购买免费版套餐</h2><p>用上一步使用的浏览器进入<a href="https://common-buy.aliyun.com/?commodityCode=alimail&userCode=a5fdv0ky&specCode=lx_18482#/buy">企业邮箱免费版-购买-阿里云</a></p><p><img src="https://cdn.tulan.cyou/noah/2025/07/27/11f9f5c7-f003-4c98-bc40-1bcf9baecbf0.png" alt="企业邮箱免费版-购买界面"></p><h2 id="3-开通不了怎么办"><a href="#3-开通不了怎么办" class="headerlink" title="3.开通不了怎么办"></a>3.开通不了怎么办</h2><p>一般来说到这一步就可以了，但阿里有时候会抽风</p><p>这时候，你还需要到阿里云手机app里完成那笔0.00人民币的账单才行</p><p>还不行的话可以发工单联系阿里云工程师处理</p><h2 id="4-管理（设置解析）"><a href="#4-管理（设置解析）" class="headerlink" title="4.管理（设置解析）"></a>4.管理（设置解析）</h2><p>打开<a href="https://alimail.console.aliyun.com/?spm=5176.12818093_47.resourceCenter.5.3be92cc9Rhk8hV#eyJ2YWx1ZSI6InByb2R1Y3RMaXN0In0=">阿里云企业邮箱控制台</a>，进入管理</p><p><img src="https://cdn.tulan.cyou/noah/2025/07/27/b0dd3639-4b23-4e24-8044-d7c191196e0c.png" alt="阿里云企业邮箱控制台"></p><p><img src="https://cdn.tulan.cyou/noah/2025/07/27/fab95357-0c24-48ba-8a83-d9012b693264.png" alt="阿里云企业邮箱控制台"></p><h1 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h1><ul><li><p>阿里云账号必须完成个人或企业认证！</p></li><li><p>一个阿里云账号只能购买一个免费版的企业邮箱，如果要更换域名，可以到邮箱管理里更改（ 如下图所示🔨）</p></li></ul><p><img src="https://cdn.tulan.cyou/noah/2025/07/27/0a965d67-e343-473a-a362-85af70142c15.png"></p><h1 id="大功告成🎉！"><a href="#大功告成🎉！" class="headerlink" title="大功告成🎉！"></a>大功告成🎉！</h1><p>现在你就可以愉快的体验属于你自己的邮箱了QWQ，下期我会出阿里企业邮箱接入第三方服务、客户端的教程，记得多多关注哟AWA</p><p>如果你有什么问题的话，也欢迎留言，我会耐心解答的哦🎇</p><p>[1]一般来说<strong>个人实名认证</strong>扫码绑定一下你的支付宝即可</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;本篇博客提到的企业邮箱指的是 按照自有域名开通的邮箱 比如我的&lt;a href=&quot;mailto:&amp;#x6e;&amp;#x6f;&amp;#x61;&amp;#104</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>马上2026年高考要来了，各位加油鸭！qwq</title>
+    <link href="https://hexo.noah0932.top/2025/08/06/%E9%A9%AC%E4%B8%8A2026%E5%B9%B4%E9%AB%98%E8%80%83%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%8C%E5%90%84%E4%BD%8D%E5%8A%A0%E6%B2%B9%E9%B8%AD%EF%BC%81qwq/"/>
+    <id>https://hexo.noah0932.top/2025/08/06/%E9%A9%AC%E4%B8%8A2026%E5%B9%B4%E9%AB%98%E8%80%83%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%8C%E5%90%84%E4%BD%8D%E5%8A%A0%E6%B2%B9%E9%B8%AD%EF%BC%81qwq/</id>
+    <published>2025-08-06T12:46:26.261Z</published>
+    <updated>2025-08-06T12:57:10.233Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>阿里云ESA免费套餐上线啦，快快去薅！</title>
+    <link href="https://hexo.noah0932.top/2025/08/06/%E9%98%BF%E9%87%8C%E4%BA%91ESA%E5%85%8D%E8%B4%B9%E5%A5%97%E9%A4%90%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%8C%E5%BF%AB%E5%BF%AB%E5%8E%BB%E8%96%85%EF%BC%81/"/>
+    <id>https://hexo.noah0932.top/2025/08/06/%E9%98%BF%E9%87%8C%E4%BA%91ESA%E5%85%8D%E8%B4%B9%E5%A5%97%E9%A4%90%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%8C%E5%BF%AB%E5%BF%AB%E5%8E%BB%E8%96%85%EF%BC%81/</id>
+    <published>2025-08-06T12:46:26.253Z</published>
+    <updated>2025-08-06T12:56:09.956Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近阿里新出了一款免费的<strong>ESA套餐</strong>，感觉看起来还可以QWQ</p><p><strong>所以第一时间拿我的小破站试了试水</strong></p><p>网站测速如下图（和我halo的并发性有很大关系）</p><p><img src="https://cdn.tulan.cyou/2025/07/31/e733dfabf6b003aa15e3fd56d41e8622.png"></p><p>再放一张ping（来自itdog）</p><p><img src="https://cdn.tulan.cyou/2025/07/31/c1f5243167b9e032a8a1c37dd00511ed.png"></p><p>哇哦，感觉还不错呢awa</p><p>免费领取链接：<a href="http://s.tb.cn/e6.0Fu67m">http://s.tb.cn/e6.0Fu67m</a></p><p>一个月有50G流量，这可比eo的10G大方多了AWA</p><p>快来试试吧QWQ</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;最近阿里新出了一款免费的&lt;strong&gt;ESA套餐&lt;/strong&gt;，感觉看起来还可以QWQ&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;所以第一时间拿我的小破站试了试水&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;网站测速如下图（和我halo的并发性有很大关系）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>PayPal与微信，印度UPI，Mercado Pago等巨头合作，打造首个全球钱包联盟</title>
+    <link href="https://hexo.noah0932.top/2025/08/06/PayPal%E4%B8%8E%E5%BE%AE%E4%BF%A1%EF%BC%8C%E5%8D%B0%E5%BA%A6UPI%EF%BC%8CMercado%20Pago%E7%AD%89%E5%B7%A8%E5%A4%B4%E5%90%88%E4%BD%9C%EF%BC%8C%E6%89%93%E9%80%A0%E9%A6%96%E4%B8%AA%E5%85%A8%E7%90%83%E9%92%B1%E5%8C%85%E8%81%94%E7%9B%9F/"/>
+    <id>https://hexo.noah0932.top/2025/08/06/PayPal%E4%B8%8E%E5%BE%AE%E4%BF%A1%EF%BC%8C%E5%8D%B0%E5%BA%A6UPI%EF%BC%8CMercado%20Pago%E7%AD%89%E5%B7%A8%E5%A4%B4%E5%90%88%E4%BD%9C%EF%BC%8C%E6%89%93%E9%80%A0%E9%A6%96%E4%B8%AA%E5%85%A8%E7%90%83%E9%92%B1%E5%8C%85%E8%81%94%E7%9B%9F/</id>
+    <published>2025-08-06T12:46:26.245Z</published>
+    <updated>2025-08-06T12:49:32.044Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="PayPal与微信，印度UPI，Mercado-Pago等巨头合作，打造首个全球钱包联盟，即将在国内支持微周三宣布与多家全球支付公司建立合作伙伴关系，包括印度的统一支付接口-UPI-和中国的微信，旨在促进更便捷的跨境支付。"><a href="#PayPal与微信，印度UPI，Mercado-Pago等巨头合作，打造首个全球钱包联盟，即将在国内支持微周三宣布与多家全球支付公司建立合作伙伴关系，包括印度的统一支付接口-UPI-和中国的微信，旨在促进更便捷的跨境支付。" class="headerlink" title="PayPal与微信，印度UPI，Mercado Pago等巨头合作，打造首个全球钱包联盟，即将在国内支持微周三宣布与多家全球支付公司建立合作伙伴关系，包括印度的统一支付接口(UPI)和中国的微信，旨在促进更便捷的跨境支付。"></a>PayPal与微信，印度UPI，Mercado Pago等巨头合作，打造首个全球钱包联盟，即将在国内支持微周三宣布与多家全球支付公司建立合作伙伴关系，包括印度的统一支付接口(UPI)和中国的微信，旨在促进更便捷的跨境支付。</h2><p>在本周三（2025年7月23日）PayPal及其子公司Venmo宣布与运营<strong>印度UPI支付系统</strong>的NPCI International Payments Ltd、运营微信的腾讯(HK:0700)旗下<strong>Tenpay Global</strong>，以及拉丁美洲的<strong>Mercado Pago</strong>建立了合作关系。</p><p>这一合作项目名为PayPal World，是一个”<strong>将全球许多最大的支付系统和数字钱包整合到单一平台上</strong>（让全球用户<strong>无需切换应用</strong>、<strong>无需换汇</strong>，就能<strong>用本地钱包完成跨境支付</strong>。）”的平台</p><p>PayPal全球总裁兼首席执行官Alex Chriss表示，”<strong>尽管跨境资金流动的复杂性超乎想象，但PayPal World会为近二十亿的消费者和企业带来更为简单、便捷的体验。我们相信，随着不断发展，今天发布的这一举措有潜力改变游戏规则。我们非常期待在不久的将来与更多数字钱包建立合作。</strong>”</p><p>该平台将允许用户向世界上任何人转账，<strong>即使对方不使用PayPal</strong>；并且，其将利用区域支付网络促进交易。</p><p>例如，印度消费者将能够通过PayPal使用UPI支付海外产品。</p><p>在7月24日，Paypal World正式启动（官方预计“2025 年底推出”）</p><p>合作方如下：</p><p>中国：Tenpay Global（腾讯财付通国际业务，微信支付的跨境平台）</p><p>印度：NPCI International Payments Ltd.（印度统一支付接口 UPI 的运营机构）</p><p>美国：PayPal 与 Venmo</p><p>拉美：Mercado Pago（拉丁美洲最大的金融科技公司）</p><p>PayPal表示，该平台预计将覆盖超过20亿用户，成为首个整合多国主流支付系统的全球性生态体系。并且，该平台还将允许跨境用户之间无缝转账。[1][2]</p><p><video controls="" style="width:100%;"><source src="https://cdn.tulan.cyou/noah/2025/07/26/2f9919b4-da9e-4770-b54f-56bb76e63792.mp4" type="video/mp4">您的浏览器不支持 HTML5 视频，请下载Chrome或者Edge浏览器。</video></p><p>[1]PayPal原文：“汇款将如发送短信一样简单。例如，一位美国的Venmo用户想汇款给位于德国的朋友购买生日礼物时，只需要打开Venmo App，输入其朋友的电话号码，然后选择PayPal钱包完成汇款。”</p><p>[2]PayPal原文：“该合作伙伴关系的达成意味着全球近二十亿用户将从中受益。”</p><p>Paypal World官方网站：</p><p><a href="https://www.paypal.com/us/digital-wallet/paypal-world">https://www.paypal.com/us/digital-wallet/paypal-world</a></p><p>Paypal World中国站：</p><p><a href="https://www.paypal.com/c2/webapps/mpp/digital-wallet/paypal-world">https://www.paypal.com/c2/webapps/mpp/digital-wallet/paypal-world</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;PayPal与微信，印度UPI，Mercado-Pago等巨头合作，打造首个全球钱包联盟，即将在国内支持微周三宣布与多家全球支付公司建立合作伙伴关系，包括印度的统一支付接口-UPI-和中国的微信，旨在促进更便捷的跨境支付。&quot;&gt;&lt;a href=&quot;#PayPal与微信</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>3 分钟实现手机_平板_电脑操控 Windows 云电脑（服务器）</title>
+    <link href="https://hexo.noah0932.top/2025/08/06/3%20%E5%88%86%E9%92%9F%E5%AE%9E%E7%8E%B0%E6%89%8B%E6%9C%BA_%E5%B9%B3%E6%9D%BF_%E7%94%B5%E8%84%91%E6%93%8D%E6%8E%A7%20Windows%20%E4%BA%91%E7%94%B5%E8%84%91%EF%BC%88%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89/"/>
+    <id>https://hexo.noah0932.top/2025/08/06/3%20%E5%88%86%E9%92%9F%E5%AE%9E%E7%8E%B0%E6%89%8B%E6%9C%BA_%E5%B9%B3%E6%9D%BF_%E7%94%B5%E8%84%91%E6%93%8D%E6%8E%A7%20Windows%20%E4%BA%91%E7%94%B5%E8%84%91%EF%BC%88%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%89/</id>
+    <published>2025-08-06T12:46:26.236Z</published>
+    <updated>2025-08-06T12:53:19.840Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="1-下载"><a href="#1-下载" class="headerlink" title="1.下载"></a>1.下载</h1><p>1.首先下载并安装 <code>Windows App</code></p><ul><li><em>注意：旧版 “Microsoft Remote Desktop” (RD 客户端) 已被官方下架，通过非官方渠道获取可能存在风险或兼容性问题。</em></li></ul><p><strong>Android 设备:</strong></p><ul><li><p>前往 <code>Google Play</code><strong>商店</strong> 或 <code>APKPure</code>搜索下载。</p></li><li><p>搜索并下载 <code>Windows App</code> (务必认准此名称)。</p></li><li><p><strong>iOS 设备 (iPhone&#x2F;iPad):</strong></p><ul><li><p>前往 <code>App Store</code>。</p></li><li><p>搜索并下载 <strong>Windows App mobile</strong> (务必认准此名称)。</p></li></ul></li></ul><h1 id="2-配制连接"><a href="#2-配制连接" class="headerlink" title="2.配制连接"></a>2.配制连接</h1><h4 id="①启动应用：-打开手机上安装好的-Windows-App-Android-或-Windows-App-mobile-iOS-。"><a href="#①启动应用：-打开手机上安装好的-Windows-App-Android-或-Windows-App-mobile-iOS-。" class="headerlink" title="①启动应用： 打开手机上安装好的 Windows App (Android) 或 Windows App mobile (iOS)。"></a>①<strong>启动应用：</strong> 打开手机上安装好的 <strong>Windows App</strong> (Android) 或 <strong>Windows App mobile</strong> (iOS)。</h4><h4 id="②点击右上角按钮（RD客户端在下方正中央）"><a href="#②点击右上角按钮（RD客户端在下方正中央）" class="headerlink" title="②点击右上角按钮（RD客户端在下方正中央）"></a>②点击右上角按钮（RD客户端在下方正中央）</h4><h4 id="③点击第三个“电脑连接”（RD客户端选择“电脑连接”"><a href="#③点击第三个“电脑连接”（RD客户端选择“电脑连接”" class="headerlink" title="③点击第三个“电脑连接”（RD客户端选择“电脑连接”"></a>③点击第三个“电脑连接”（RD客户端选择“电脑连接”</h4><p><img src="https://cdn.tulan.cyou/2025/06/14/Screenshot_20250601_214937_edit_15003532851047.jpg"></p><h4 id="④单击“确定”"><a href="#④单击“确定”" class="headerlink" title="④单击“确定”"></a>④单击“确定”</h4><p><img src="https://cdn.tulan.cyou/noah/2025/06/14/Screenshot_20250601_214744_edit_14992737746354.jpg"></p><h4 id="⑤第一行“电脑名称”填写服务商提供的ip"><a href="#⑤第一行“电脑名称”填写服务商提供的ip" class="headerlink" title="⑤第一行“电脑名称”填写服务商提供的ip"></a>⑤第一行“电脑名称”填写服务商提供的ip</h4><p><img src="https://cdn.tulan.cyou/noah/2025/06/14/Screenshot_20250601_215512.jpg"></p><h4 id="⑥“易记名称”里填写，你能分辨出来的名字（可选）"><a href="#⑥“易记名称”里填写，你能分辨出来的名字（可选）" class="headerlink" title="⑥“易记名称”里填写，你能分辨出来的名字（可选）"></a>⑥“易记名称”里填写，你能分辨出来的名字（可选）</h4><p><img src="https://cdn.tulan.cyou/noah/2025/06/14/Screenshot_20250601_215538.jpg"></p><h4 id="⑦如果你不想每次连接时都输入一遍密码，可以单击“用户帐户”，再单击“添加用户帐户”，输入服务商提供给您的帐户与密码，单击“保存”，再单击一次“用户帐户”，选择您刚才添加的帐户即可"><a href="#⑦如果你不想每次连接时都输入一遍密码，可以单击“用户帐户”，再单击“添加用户帐户”，输入服务商提供给您的帐户与密码，单击“保存”，再单击一次“用户帐户”，选择您刚才添加的帐户即可" class="headerlink" title="⑦如果你不想每次连接时都输入一遍密码，可以单击“用户帐户”，再单击“添加用户帐户”，输入服务商提供给您的帐户与密码，单击“保存”，再单击一次“用户帐户”，选择您刚才添加的帐户即可"></a>⑦如果你不想每次连接时都输入一遍密码，可以单击“用户帐户”，再单击“添加用户帐户”，输入服务商提供给您的帐户与密码，单击“保存”，再单击一次“用户帐户”，选择您刚才添加的帐户即可</h4><h4 id="⑧收尾工作：下方的选项您可以根据自已个人需要开启，特别建议您开启“剪切板”选项，该项功能可以令您手机的剪切板同步至服务器-云电脑，更方便您的使用。"><a href="#⑧收尾工作：下方的选项您可以根据自已个人需要开启，特别建议您开启“剪切板”选项，该项功能可以令您手机的剪切板同步至服务器-云电脑，更方便您的使用。" class="headerlink" title="⑧收尾工作：下方的选项您可以根据自已个人需要开启，特别建议您开启“剪切板”选项，该项功能可以令您手机的剪切板同步至服务器&#x2F;云电脑，更方便您的使用。"></a>⑧收尾工作：下方的选项您可以根据自已个人需要开启，特别建议您开启“剪切板”选项，该项功能可以令您手机的剪切板同步至服务器&#x2F;云电脑，更方便您的使用。</h4><h4 id=""><a href="#" class="headerlink" title=""></a><img src="https://cdn.tulan.cyou/noah/2025/06/14/Screenshot_20250601_215523.jpg"></h4><h4 id="⑨点击右上角按钮“保存”"><a href="#⑨点击右上角按钮“保存”" class="headerlink" title="⑨点击右上角按钮“保存”"></a>⑨点击右上角按钮“保存”</h4><p><img src="https://cdn.tulan.cyou/noah/2025/06/14/Screenshot_20250601_215849.jpg"></p><h4 id="⑩完成！"><a href="#⑩完成！" class="headerlink" title="⑩完成！"></a>⑩完成！</h4><h1 id="3-连接"><a href="#3-连接" class="headerlink" title="3.连接"></a>3.连接</h1><h4 id="回到首页，找到您刚才添加过的服务器-云电脑，单击卡片，首次连接时可能会有许多警告，全部通过即可"><a href="#回到首页，找到您刚才添加过的服务器-云电脑，单击卡片，首次连接时可能会有许多警告，全部通过即可" class="headerlink" title="回到首页，找到您刚才添加过的服务器&#x2F;云电脑，单击卡片，首次连接时可能会有许多警告，全部通过即可"></a>回到首页，找到您刚才添加过的服务器&#x2F;云电脑，单击卡片，首次连接时可能会有许多警告，全部通过即可</h4><p><img src="https://cdn.tulan.cyou/noah/2025/06/14/Screenshot_20250601_220100_1.jpg"></p><p>成功连接后，你手机的屏幕将显示远程电脑的桌面。现在就可以像操作本地电脑一样操作云电脑了。</p><h3 id="⚠️-避坑提示"><a href="#⚠️-避坑提示" class="headerlink" title="⚠️ 避坑提示"></a>⚠️ <strong>避坑提示</strong></h3><ul><li><p>旧版 RD 客户端官方已停用，需通过<strong>第三方渠道</strong>获取</p></li><li><p><strong>连接警告：</strong></p><ul><li>首次连接的证书警告是<strong>普遍现象</strong>，由服务器证书未被设备信任导致。在确认连接目标无误后可安全忽略并继续。<strong>但如果在已连接过的服务器上突然出现新警告，需提高警惕！</strong></li></ul></li><li><p>Android 务必认准 <strong>「Windows App 」</strong></p></li><li><p>iOS务必认准 <strong>「Windows App mobile」</strong></p></li><li><p>连接警告因证书未验证产生，不影响功能启用</p></li></ul><h3 id="💡-效率技巧"><a href="#💡-效率技巧" class="headerlink" title="💡 效率技巧"></a>💡 <strong>效率技巧</strong></h3><ul><li><p>开启「剪切板同步」：手机复制的命令直接粘贴到云终端</p></li><li><p>避免在公共网络保存密码：若服务器敏感，建议每次手动输入</p></li></ul><h3 id="⚠️-深度避坑指南"><a href="#⚠️-深度避坑指南" class="headerlink" title="⚠️ 深度避坑指南"></a>⚠️ <strong>深度避坑指南</strong></h3><h4 id="1-连接闪退问题"><a href="#1-连接闪退问题" class="headerlink" title="1. 连接闪退问题"></a><strong>1. 连接闪退问题</strong></h4><p><strong>原因</strong>：服务端未开启远程访问权限<br><strong>解决方案</strong>（云电脑端操作）：</p><pre><code># Windows 系统Set-ItemProperty -Path &quot;HKLM:\System\CurrentControlSet\Control\Terminal Server&quot; -Name &quot;fDenyTSConnections&quot; -Value 0# 重启生效Restart-Service TermService -Force</code></pre><h4 id="2-手机端黑屏-无响应"><a href="#2-手机端黑屏-无响应" class="headerlink" title="2. 手机端黑屏&#x2F;无响应"></a><strong>2. 手机端黑屏&#x2F;无响应</strong></h4><ul><li><p><strong>触控模式切换</strong>：双指长按调出 <strong>触控板模式</strong>（精确控制光标）</p></li><li><p><strong>分辨率适配</strong>：在连接设置中开启 <strong>「动态分辨率」</strong>（自动适应手机屏幕）</p></li></ul><p><strong>3. 补充说明</strong></p><ul><li><p><strong>网关：</strong> 如果是在企业环境中通过 RD Gateway 连接，需要在配置连接的“网关”部分填写网关服务器地址。</p></li><li><p><strong>声音：</strong> 如果需要在手机端听到远程电脑的声音，确保在“本地资源”设置中开启了“远程音频”。</p></li><li><p><strong>文件传输：</strong> 开启“存储”权限后，在远程电脑的“文件资源管理器”中，可以看到你的手机设备作为一个磁盘驱动器出现（通常命名为<code>&lt;DeviceName&gt; on &lt;YourPhoneName&gt;</code>），方便文件互传。</p></li></ul><h2 id="说在最后"><a href="#说在最后" class="headerlink" title="说在最后"></a>说在最后</h2><p><strong>恭喜！</strong> 现在您已经掌握了在手机上连接和使用 [云电脑&#x2F;远程服务器] 的全部步骤。随时随地，轻松管理您的远程资源。开始畅享移动办公的便利吧！如遇任何问题，欢迎评论区留言awa</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;1-下载&quot;&gt;&lt;a href=&quot;#1-下载&quot; class=&quot;headerlink&quot; title=&quot;1.下载&quot;&gt;&lt;/a&gt;1.下载&lt;/h1&gt;&lt;p&gt;1.首先下载并安装 &lt;code&gt;Windows App&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;注意：旧版 “Mic</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://hexo.noah0932.top/2025/08/06/hello-world/"/>
+    <id>https://hexo.noah0932.top/2025/08/06/hello-world/</id>
+    <published>2025-08-06T08:06:26.014Z</published>
+    <updated>2025-08-06T08:06:26.015Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
