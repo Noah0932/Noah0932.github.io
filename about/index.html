@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>about | NoahのBlog</title><meta name="author" content="Noah"><meta name="copyright" content="Noah"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="about"><meta name="application-name" content="about"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="website"><meta property="og:title" content="about"><meta property="og:url" content="https://hexo.noah0932.top/about/index.html"><meta property="og:site_name" content="NoahのBlog"><meta property="og:description" content="about"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://t.alcy.cc/fj?_r_=1ea2cf05-97dd-90f9-af56-b9eb85d3f869"><meta property="article:author" content="Noah"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://t.alcy.cc/fj?_r_=1ea2cf05-97dd-90f9-af56-b9eb85d3f869"><meta name="description" content="about"><link rel="shortcut icon" href="https://cdn.tulan.cyou/noah/2025/08/06/bitbug_favicon.ico"><link rel="canonical" href="https://hexo.noah0932.top/about/"><link rel="preconnect" href="//cdn.cbd.int"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>about | NoahのBlog</title><meta name="author" content="Noah"><meta name="copyright" content="Noah"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="about"><meta name="application-name" content="about"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="website"><meta property="og:title" content="about"><meta property="og:url" content="https://hexo.noah0932.top/about/index.html"><meta property="og:site_name" content="NoahのBlog"><meta property="og:description" content="about"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://t.alcy.cc/fj?_r_=08bb96af-5e18-068a-82d7-f372d53f34b3"><meta property="article:author" content="Noah"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://t.alcy.cc/fj?_r_=08bb96af-5e18-068a-82d7-f372d53f34b3"><meta name="description" content="about"><link rel="shortcut icon" href="https://cdn.tulan.cyou/noah/2025/08/06/bitbug_favicon.ico"><link rel="canonical" href="https://hexo.noah0932.top/about/"><link rel="preconnect" href="//cdn.cbd.int"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
   linkPageTop: undefined,
   peoplecanvas: {"enable":true,"img":"https://upload-bbs.miyoushe.com/upload/2024/07/27/125766904/ba62475f396df9de3316a08ed9e65d86_5680958632268053399..png"},
   postHeadAiDescription: {"enable":true,"gptName":"Noah~AI","mode":"local","switchBtn":false,"btnLink":"https://afdian.net/item/886a79d4db6711eda42a52540025c377","randomNum":3,"basicWordCount":1000,"key":"xxxx","Referer":"https://xx.xx/"},
@@ -511,7 +511,7 @@ queueMicrotask(() => {
     updateHtml();
   }, 1000);
 })();</script><div class="js-pjax"><input type="hidden" name="page-type" id="page-type" value="about"></div><script>window.addEventListener('load', () => {
-  const changeContent = (content) => {
+  const changeContent = content => {
     if (content === '') return content
 
     content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
@@ -552,58 +552,31 @@ queueMicrotask(() => {
     window.pjax && window.pjax.refresh($dom)
   }
 
-  const getSetting = async () => {
-    try {
-      const res = await fetch('https://ywjslgsprndo.ap-northeast-1.clawcloudrun.com/api/conf', { method: 'GET' })
-      return await res.json()
-    } catch (e) {
-      console.log(e)
-    }
-  }
-
-  const headerList = {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/x-www-form-urlencoded',
-      'Origin': window.location.origin
-    },
-    body: new URLSearchParams({
-      'site_name': 'Noah的博客',
-      'limit': '6',
-      'type':'latest_comments'
-    })
-  }
-
   const getComment = async () => {
     try {
-      const res = await fetch('https://ywjslgsprndo.ap-northeast-1.clawcloudrun.com/api/stat', headerList)
+      const res = await fetch('https://waline.noah0932.top/api/comment?type=recent&count=6', { method: 'GET' })
       const result = await res.json()
-      const avatarStr = await getSetting()
-      const { mirror, params, default:defaults } = avatarStr.data.frontend_conf.gravatar
-      const avatarCdn = false || mirror
-      let avatarDefault = false || params || defaults
-      avatarDefault = avatarDefault.startsWith('d=') ? avatarDefault : `d=${avatarDefault}`
-      const artalk = result.data.map(function (e) {
+      const walineArray = result.data.map(e => {
         return {
-          'avatar': `${avatarCdn}${e.email_encrypted}?${avatarDefault}`,
-          'content': changeContent(e.content_marked),
+          'content': changeContent(e.comment),
+          'avatar': e.avatar,
           'nick': e.nick,
-          'url': e.page_url,
-          'date': e.date,
+          'url': e.url + '#' + e.objectId,
+          'date': e.time || e.insertedAt
         }
       })
-      saveToLocal.set('artalk-newest-comments', JSON.stringify(artalk), 10/(60*24))
-      generateHtml(artalk)
-    } catch (e) {
-      console.log(e)
+      saveToLocal.set('waline-newest-comments', JSON.stringify(walineArray), 10/(60*24))
+      generateHtml(walineArray)
+    } catch (err) {
+      console.error(err)
       const $dom = document.querySelector('#card-newest-comments .aside-list')
-      $dom.innerHTML= "无法获取评论，请确认相关配置是否正确"
+      $dom.textContent= "无法获取评论，请确认相关配置是否正确"
     }
   }
 
   const newestCommentInit = () => {
     if (document.querySelector('#card-newest-comments .aside-list')) {
-      const data = saveToLocal.get('artalk-newest-comments')
+      const data = saveToLocal.get('waline-newest-comments')
       if (data) {
         generateHtml(JSON.parse(data))
       } else {
