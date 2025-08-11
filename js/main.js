@@ -1799,9 +1799,6 @@ document.addEventListener("DOMContentLoaded", function () {
     anzhiyu.getCustomPlayList();
     anzhiyu.addEventListenerConsoleMusicList(false);
     anzhiyu.initPaginationObserver();
-    // 以上是原有的
-    // 欢迎信息
-    NaoKuo.setWelcome_info();
     setTimeout(() => {
       setInputFocusListener();
       if (typeof addFriendLinksInFooter === "function") {
