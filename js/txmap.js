@@ -242,9 +242,3 @@ function showWelcome() {
 window.onload = showWelcome;
 // 如果使用了pjax在加上下面这行代码
 document.addEventListener('pjax:complete', showWelcome);
-
-
-作者: Ganzhe
-链接: https://ganzhe2028.github.io/posts/14542.html
-来源: 嗨👋～ 这里是Ganzhe
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
