@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.noah0932.top/friends/index.html</loc>
+    <loc>https://blog.noah0932.top/api/link.json</loc>
     
     <lastmod>2025-08-18</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://blog.noah0932.top/api/link.json</loc>
+    <loc>https://blog.noah0932.top/friends/index.html</loc>
     
     <lastmod>2025-08-18</lastmod>
     
