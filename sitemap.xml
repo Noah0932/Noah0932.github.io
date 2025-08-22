@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.noah0932.top/about/index.html</loc>
+    
+    <lastmod>2025-08-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.noah0932.top/posts/Bing-daily-image/</loc>
     
     <lastmod>2025-08-22</lastmod>
@@ -104,15 +113,6 @@
     <loc>https://blog.noah0932.top/posts/about-yellophotos-China-police/</loc>
     
     <lastmod>2025-08-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.noah0932.top/about/index.html</loc>
-    
-    <lastmod>2025-08-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

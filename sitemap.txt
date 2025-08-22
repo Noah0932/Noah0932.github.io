@@ -1,3 +1,4 @@
+https://blog.noah0932.top/about/index.html
 https://blog.noah0932.top/posts/Bing-daily-image/
 https://blog.noah0932.top/posts/EdgeOne-Network/
 https://blog.noah0932.top/posts/halo-hao-Settings/
@@ -10,7 +11,6 @@ https://blog.noah0932.top/posts/hello-world/
 https://blog.noah0932.top/posts/windowsapp/
 https://blog.noah0932.top/posts/Personal-Homepage-Update/
 https://blog.noah0932.top/posts/about-yellophotos-China-police/
-https://blog.noah0932.top/about/index.html
 https://blog.noah0932.top/friends/index.html
 https://blog.noah0932.top/api/link.json
 https://blog.noah0932.top/link/index.html
