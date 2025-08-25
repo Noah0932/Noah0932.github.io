@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.noah0932.top/posts/Microsoft-Update-MAPP/</loc>
+    
+    <lastmod>2025-08-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.noah0932.top/api/link.json</loc>
     
     <lastmod>2025-08-25</lastmod>
@@ -266,14 +275,14 @@
   </url>
   
   <url>
-    <loc>https://blog.noah0932.top/tags/Hexo/</loc>
+    <loc>https://blog.noah0932.top/tags/EdgeOne-Ali-ESA/</loc>
     <lastmod>2025-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.noah0932.top/tags/EdgeOne-Ali-ESA/</loc>
+    <loc>https://blog.noah0932.top/tags/Hexo/</loc>
     <lastmod>2025-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -295,6 +304,13 @@
   
   <url>
     <loc>https://blog.noah0932.top/tags/DNS/</loc>
+    <lastmod>2025-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.noah0932.top/tags/Microsoft/</loc>
     <lastmod>2025-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
