@@ -1,3 +1,4 @@
+https://blog.noah0932.top/link/index.html
 https://blog.noah0932.top/posts/Typora-free/
 https://blog.noah0932.top/posts/China-DNS/
 https://blog.noah0932.top/posts/postcard-v1/
@@ -5,7 +6,6 @@ https://blog.noah0932.top/posts/Hexo-Git-error/
 https://blog.noah0932.top/posts/CouldFlare-Worker-nginx/
 https://blog.noah0932.top/posts/EdgeOne-Aliyun-ESA-Network/
 https://blog.noah0932.top/posts/Microsoft-Update-MAPP/
-https://blog.noah0932.top/link/index.html
 https://blog.noah0932.top/api/link.json
 https://blog.noah0932.top/about/index.html
 https://blog.noah0932.top/posts/Bing-daily-image/
@@ -37,8 +37,8 @@ https://blog.noah0932.top/tags/EdgeOne-Ali-ESA/
 https://blog.noah0932.top/tags/Typora/
 https://blog.noah0932.top/tags/Hexo/
 https://blog.noah0932.top/tags/%E9%A1%B9%E7%9B%AE/
-https://blog.noah0932.top/tags/DNS/
 https://blog.noah0932.top/tags/%E7%94%9F%E6%B4%BB/
+https://blog.noah0932.top/tags/DNS/
 https://blog.noah0932.top/tags/Microsoft/
 https://blog.noah0932.top/tags/EdgeOne/
 https://blog.noah0932.top/tags/%E6%B4%BB%E5%8A%A8/
