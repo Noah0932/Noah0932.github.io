@@ -308,6 +308,13 @@
 
   
   <url>
+    <loc>https://blog.noah0932.top/tags/%E5%A3%81%E7%BA%B8/</loc>
+    <lastmod>2025-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.noah0932.top/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2025-11-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -315,7 +322,7 @@
   </url>
   
   <url>
-    <loc>https://blog.noah0932.top/tags/%E5%A3%81%E7%BA%B8/</loc>
+    <loc>https://blog.noah0932.top/tags/%E5%89%8D%E6%B2%BF%E6%8A%A5%E9%81%93/</loc>
     <lastmod>2025-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -329,13 +336,6 @@
   </url>
   
   <url>
-    <loc>https://blog.noah0932.top/tags/Hexo/</loc>
-    <lastmod>2025-11-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.noah0932.top/tags/Typora/</loc>
     <lastmod>2025-11-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -343,7 +343,7 @@
   </url>
   
   <url>
-    <loc>https://blog.noah0932.top/tags/%E5%89%8D%E6%B2%BF%E6%8A%A5%E9%81%93/</loc>
+    <loc>https://blog.noah0932.top/tags/Hexo/</loc>
     <lastmod>2025-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
