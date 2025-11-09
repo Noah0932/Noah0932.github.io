@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.noah0932.top/posts/edu-mail</loc>
+    <loc>https://blog.noah0932.top/posts/edu-mail/</loc>
     
     <lastmod>2025-11-09</lastmod>
     
@@ -322,7 +322,14 @@
   </url>
   
   <url>
-    <loc>https://blog.noah0932.top/tags/%E5%89%8D%E6%B2%BF%E6%8A%A5%E9%81%93/</loc>
+    <loc>https://blog.noah0932.top/tags/EdgeOne-Ali-ESA/</loc>
+    <lastmod>2025-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.noah0932.top/tags/Hexo/</loc>
     <lastmod>2025-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -336,14 +343,7 @@
   </url>
   
   <url>
-    <loc>https://blog.noah0932.top/tags/EdgeOne-Ali-ESA/</loc>
-    <lastmod>2025-11-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.noah0932.top/tags/Hexo/</loc>
+    <loc>https://blog.noah0932.top/tags/%E5%89%8D%E6%B2%BF%E6%8A%A5%E9%81%93/</loc>
     <lastmod>2025-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
