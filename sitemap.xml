@@ -381,13 +381,6 @@
   </url>
   
   <url>
-    <loc>https://blog.noah0932.top/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2026-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.noah0932.top/tags/Typora/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -396,6 +389,13 @@
   
   <url>
     <loc>https://blog.noah0932.top/tags/Hexo/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.noah0932.top/tags/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
