@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.noah0932.top/link/index.html</loc>
+    
+    <lastmod>2026-02-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.noah0932.top/posts/alipay-xhs/</loc>
     
     <lastmod>2026-02-10</lastmod>
@@ -86,15 +95,6 @@
     <loc>https://blog.noah0932.top/posts/postcard-v1/</loc>
     
     <lastmod>2025-11-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.noah0932.top/link/index.html</loc>
-    
-    <lastmod>2025-10-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -395,14 +395,14 @@
   </url>
   
   <url>
-    <loc>https://blog.noah0932.top/tags/%E6%95%99%E8%82%B2%E9%82%AE%E7%AE%B1/</loc>
+    <loc>https://blog.noah0932.top/tags/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.noah0932.top/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://blog.noah0932.top/tags/%E6%95%99%E8%82%B2%E9%82%AE%E7%AE%B1/</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -430,14 +430,14 @@
   </url>
   
   <url>
-    <loc>https://blog.noah0932.top/tags/%E6%97%A5%E5%B8%B8/</loc>
+    <loc>https://blog.noah0932.top/tags/EdgeOne/</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.noah0932.top/tags/EdgeOne/</loc>
+    <loc>https://blog.noah0932.top/tags/%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
