@@ -5362,7 +5362,7 @@ body[data-type='about'] #web_bg {
   filter: drop-shadow(0 -500px 0 var(--loadingbar-prospect-color));
   width: 500px;
   height: 62.5px;
-  background: url("https://yuanshen.site/imgs/loading-bar.png") no-repeat left 100%;
+  background: url("/assets/images/ff66ea8f899d-loading-bar.png") no-repeat left 100%;
   background-size: 500px 62.5px;
   background-position-x: 0;
 }
@@ -25436,7 +25436,7 @@ body[data-type="room"] #page .page-title {
   height: 100%;
   box-shadow: 0.125vw 0.125vw 1vw rgba(81, 137, 251, 0.5), -0.125vw 0.125vw 1vw rgba(81, 137, 251, 0.5),
     0.125vw -0.125vw 1vw rgba(81, 137, 251, 0.5), -0.125vw -0.125vw 1vw rgba(81, 137, 251, 0.5);
-  background-image: url("https://img02.anheyu.com/adminuploads/1/2022/10/20/6351038493d46.gif");
+  background-image: url("/assets/images/0a11589ff2ae-6351038493d46.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -26049,7 +26049,7 @@ body[data-type="room"] #page .page-title {
 }
 
 .cuadro-l__front {
-  background-image: url("https://img02.anheyu.com/adminuploads/1/2022/10/20/63510384967db.jpg");
+  background-image: url("/assets/images/17b4e44f081c-63510384967db.jpg");
   background-color: #d51e24;
   border: 1vw solid #d51e24;
 }
@@ -26070,7 +26070,7 @@ body[data-type="room"] #page .page-title {
 }
 
 .cuadro-r__front {
-  background-image: url("https://img02.anheyu.com/adminuploads/1/2022/10/20/6351038496f25.jpg");
+  background-image: url("/assets/images/ccbf98575819-6351038496f25.jpg");
   background-color: #0f1110;
   border: 0.5vw solid #0f1110;
 }
