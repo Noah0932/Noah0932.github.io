@@ -1,8 +1,8 @@
 https://blog.noah0932.top/assets/manifest.json
+https://blog.noah0932.top/friends/index.html
 https://blog.noah0932.top/api/link.json
 https://blog.noah0932.top/posts/free-aliyun-ESA/
 https://blog.noah0932.top/posts/gaokao/
-https://blog.noah0932.top/friends/index.html
 https://blog.noah0932.top/air-conditioner/index.html
 https://blog.noah0932.top/posts/Personal-Homepage/
 https://blog.noah0932.top/posts/Zootropolis%202/
