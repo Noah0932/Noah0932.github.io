@@ -6,11 +6,8 @@
     return;
   }
 
-  const FRIENDS_DATA_PATH = "/api/link.json";
-  const CORS_PROXY = "https://cors.eu.org/";
+  const FRIENDS_DATA_PATH = "/api/friends-posts.json";
   const FALLBACK_AVATAR = "/assets/images/181f27c2864d-bitbug_favicon.ico";
-  const MAX_POSTS_PER_FRIEND = 3;
-  const MAX_TOTAL_POSTS = 50;
   const CACHE_TTL = 5 * 60 * 1000;
 
   let activeRequest = null;
@@ -31,25 +28,6 @@
     const month = String(date.getMonth() + 1).padStart(2, "0");
     const day = String(date.getDate()).padStart(2, "0");
     return `${date.getFullYear()}-${month}-${day}`;
-  };
-
-  const parseFeed = xml => {
-    const documentNode = new DOMParser().parseFromString(xml, "application/xml");
-    if (documentNode.querySelector("parsererror")) return [];
-
-    return Array.from(documentNode.querySelectorAll("item, entry"))
-      .slice(0, MAX_POSTS_PER_FRIEND)
-      .map(item => {
-        const linkElement = item.querySelector("link");
-        const summary = item.querySelector("description, summary, content")?.textContent || "";
-        return {
-          title: item.querySelector("title")?.textContent?.trim() || "无标题",
-          link: linkElement?.getAttribute("href") || linkElement?.textContent?.trim() || "",
-          pubDate: item.querySelector("pubDate, published, updated")?.textContent || "",
-          summary: summary.replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim().slice(0, 150),
-        };
-      })
-      .filter(post => post.link);
   };
 
   const createLoading = () => {
@@ -103,34 +81,10 @@
 
   const loadPosts = async signal => {
     const response = await fetch(FRIENDS_DATA_PATH, { signal, cache: "no-cache" });
-    if (!response.ok) throw new Error(`加载友链数据失败：HTTP ${response.status}`);
-    const categories = await response.json();
-    if (!Array.isArray(categories)) throw new Error("友链数据格式错误");
-
-    const friends = categories
-      .flatMap(category => category.link_list || [])
-      .filter(friend => friend.rss || friend["atom(options)"]);
-
-    const results = await Promise.all(friends.map(async friend => {
-      const feedUrl = friend.rss || friend["atom(options)"];
-      try {
-        const feedResponse = await fetch(`${CORS_PROXY}${feedUrl}`, { signal });
-        if (!feedResponse.ok) return [];
-        return parseFeed(await feedResponse.text()).map(post => ({
-          ...post,
-          author: friend.name,
-          avatar: friend.avatar,
-        }));
-      } catch (error) {
-        if (error.name === "AbortError") throw error;
-        return [];
-      }
-    }));
-
-    return results
-      .flat()
-      .sort((left, right) => new Date(right.pubDate) - new Date(left.pubDate))
-      .slice(0, MAX_TOTAL_POSTS);
+    if (!response.ok) throw new Error(`加载朋友圈数据失败：HTTP ${response.status}`);
+    const posts = await response.json();
+    if (!Array.isArray(posts)) throw new Error("朋友圈数据格式错误");
+    return posts.filter(post => post && post.link && post.title);
   };
 
   const abort = () => {

@@ -1,10 +1,12 @@
 https://blog.noah0932.top/assets/manifest.json
+https://blog.noah0932.top/api/friends-posts.json
+https://blog.noah0932.top/air-conditioner/index.html
+https://blog.noah0932.top/about/index.html
 https://blog.noah0932.top/link/index.html
 https://blog.noah0932.top/api/link.json
 https://blog.noah0932.top/friends/index.html
 https://blog.noah0932.top/posts/free-aliyun-ESA/
 https://blog.noah0932.top/posts/gaokao/
-https://blog.noah0932.top/air-conditioner/index.html
 https://blog.noah0932.top/posts/Personal-Homepage/
 https://blog.noah0932.top/posts/Zootropolis%202/
 https://blog.noah0932.top/posts/bengbuzhule-tongyongjishu&xinxijishukaoshi/
@@ -30,7 +32,6 @@ https://blog.noah0932.top/posts/Typora-free/
 https://blog.noah0932.top/posts/CouldFlare-Worker-nginx/
 https://blog.noah0932.top/posts/EdgeOne-Aliyun-ESA-Network/
 https://blog.noah0932.top/posts/Microsoft-Update-MAPP/
-https://blog.noah0932.top/about/index.html
 https://blog.noah0932.top/posts/EdgeOne-Network/
 https://blog.noah0932.top/posts/hello-world/
 https://blog.noah0932.top/essay/index.html

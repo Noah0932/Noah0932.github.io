@@ -11,6 +11,33 @@
   </url>
   
   <url>
+    <loc>https://blog.noah0932.top/api/friends-posts.json</loc>
+    
+    <lastmod>2026-07-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.noah0932.top/air-conditioner/index.html</loc>
+    
+    <lastmod>2026-07-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.noah0932.top/about/index.html</loc>
+    
+    <lastmod>2026-07-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.noah0932.top/link/index.html</loc>
     
     <lastmod>2026-07-16</lastmod>
@@ -48,15 +75,6 @@
   
   <url>
     <loc>https://blog.noah0932.top/posts/gaokao/</loc>
-    
-    <lastmod>2026-07-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.noah0932.top/air-conditioner/index.html</loc>
     
     <lastmod>2026-07-15</lastmod>
     
@@ -284,15 +302,6 @@
     <loc>https://blog.noah0932.top/posts/Microsoft-Update-MAPP/</loc>
     
     <lastmod>2025-08-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.noah0932.top/about/index.html</loc>
-    
-    <lastmod>2025-08-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
