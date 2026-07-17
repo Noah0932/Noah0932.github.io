@@ -1,5 +1,4 @@
 https://blog.noah0932.top/assets/manifest.json
-https://blog.noah0932.top/api/friends-posts.json
 https://blog.noah0932.top/air-conditioner/index.html
 https://blog.noah0932.top/about/index.html
 https://blog.noah0932.top/link/index.html

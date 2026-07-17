@@ -6,7 +6,9 @@
     return;
   }
 
-  const FRIENDS_DATA_PATH = "/api/friends-posts.json";
+  const FRIENDS_DATA_PATH = ["localhost", "127.0.0.1"].includes(window.location.hostname)
+    ? "http://localhost:8788/api/friends-circle"
+    : "/api/friends-circle";
   const FALLBACK_AVATAR = "/assets/images/181f27c2864d-bitbug_favicon.ico";
   const CACHE_TTL = 5 * 60 * 1000;
 
