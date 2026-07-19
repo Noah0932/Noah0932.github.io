@@ -1,9 +1,10 @@
+https://blog.noah0932.top/posts/free-more-Edgeone-plan
+https://blog.noah0932.top/friends/index.html
 https://blog.noah0932.top/assets/manifest.json
 https://blog.noah0932.top/air-conditioner/index.html
 https://blog.noah0932.top/about/index.html
 https://blog.noah0932.top/link/index.html
 https://blog.noah0932.top/api/link.json
-https://blog.noah0932.top/friends/index.html
 https://blog.noah0932.top/posts/free-aliyun-ESA/
 https://blog.noah0932.top/posts/gaokao/
 https://blog.noah0932.top/posts/Personal-Homepage/
@@ -43,6 +44,7 @@ https://blog.noah0932.top/
 https://blog.noah0932.top/tags/%E6%95%99%E7%A8%8B/
 https://blog.noah0932.top/tags/%E5%A3%81%E7%BA%B8/
 https://blog.noah0932.top/tags/%E7%AC%94%E8%AE%B0/
+https://blog.noah0932.top/tags/Edgeone/
 https://blog.noah0932.top/tags/%E5%89%8D%E6%B2%BF%E6%8A%A5%E9%81%93/
 https://blog.noah0932.top/tags/EdgeOne-Ali-ESA/
 https://blog.noah0932.top/tags/Typora/

@@ -11,6 +11,15 @@
     : "/api/friends-circle";
   const FALLBACK_AVATAR = "/assets/images/181f27c2864d-bitbug_favicon.ico";
   const CACHE_TTL = 5 * 60 * 1000;
+  const MAX_SUMMARY_LENGTH = 500;
+  const ALLOWED_SUMMARY_TAGS = new Set([
+    "A", "B", "BLOCKQUOTE", "BR", "CODE", "EM", "H1", "H2", "H3", "H4",
+    "I", "LI", "OL", "P", "PRE", "STRONG", "UL",
+  ]);
+  const BLOCKED_SUMMARY_TAGS = new Set([
+    "AUDIO", "BUTTON", "EMBED", "FORM", "IFRAME", "INPUT", "OBJECT", "SCRIPT",
+    "SOURCE", "STYLE", "TEXTAREA", "VIDEO",
+  ]);
 
   let activeRequest = null;
   let requestVersion = 0;
@@ -47,6 +56,77 @@
     return wrapper;
   };
 
+  const normalizeHttpUrl = (value, baseUrl) => {
+    try {
+      const url = new URL(value, baseUrl);
+      return url.protocol === "http:" || url.protocol === "https:" ? url.href : "";
+    } catch {
+      return "";
+    }
+  };
+
+  const createSafeImage = (source, baseUrl) => {
+    const src = normalizeHttpUrl(source.getAttribute("src"), baseUrl);
+    if (!src) return null;
+    const image = document.createElement("img");
+    image.src = src;
+    image.alt = source.getAttribute("alt") || "文章配图";
+    image.loading = "lazy";
+    image.referrerPolicy = "no-referrer";
+    return image;
+  };
+
+  const sanitizeSummaryHtml = (html, baseUrl) => {
+    const parsed = new DOMParser().parseFromString(html, "text/html");
+    const fragment = document.createDocumentFragment();
+    const firstImage = parsed.body.querySelector("img[src]");
+    const safeImage = firstImage ? createSafeImage(firstImage, baseUrl) : null;
+    if (safeImage) fragment.appendChild(safeImage);
+
+    let remainingLength = MAX_SUMMARY_LENGTH;
+    const appendNode = (source, parent) => {
+      if (remainingLength <= 0) return;
+      if (source.nodeType === Node.TEXT_NODE) {
+        const text = source.textContent || "";
+        const chunk = text.slice(0, remainingLength);
+        remainingLength -= chunk.length;
+        if (chunk) parent.appendChild(document.createTextNode(chunk));
+        return;
+      }
+      if (source.nodeType !== Node.ELEMENT_NODE) return;
+
+      const tagName = source.tagName.toUpperCase();
+      if (BLOCKED_SUMMARY_TAGS.has(tagName) || tagName === "IMG") return;
+
+      let target = parent;
+      if (ALLOWED_SUMMARY_TAGS.has(tagName)) {
+        const element = document.createElement(tagName.toLowerCase());
+        if (tagName === "A") {
+          const href = normalizeHttpUrl(source.getAttribute("href"), baseUrl);
+          if (href) {
+            element.href = href;
+            element.target = "_blank";
+            element.rel = "noopener noreferrer nofollow";
+          }
+        }
+        parent.appendChild(element);
+        target = element;
+      }
+
+      Array.from(source.childNodes).forEach(child => appendNode(child, target));
+    };
+
+    Array.from(parsed.body.childNodes).forEach(node => appendNode(node, fragment));
+    return fragment;
+  };
+
+  const createPostSummary = post => {
+    const summary = createElement("div", "post-summary");
+    if (post.summaryHtml) summary.appendChild(sanitizeSummaryHtml(post.summaryHtml, post.link));
+    if (!summary.hasChildNodes()) summary.textContent = post.summary || "暂无摘要";
+    return summary;
+  };
+
   const createPostCard = post => {
     const card = createElement("article", "friend-post-card");
     const author = createElement("div", "author-info");
@@ -64,7 +144,7 @@
     title.href = post.link;
     title.target = "_blank";
     title.rel = "noopener noreferrer";
-    content.append(title, createElement("p", "post-summary", post.summary ? `${post.summary}...` : "暂无摘要"));
+    content.append(title, createPostSummary(post));
 
     const meta = createElement("div", "post-meta");
     meta.appendChild(createElement("span", "post-date", formatDate(post.pubDate)));
