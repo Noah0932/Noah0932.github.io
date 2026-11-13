@@ -1,0 +1,69 @@
+/* 关于页布局修复：避免动画文字和影视封面溢出卡片。 */
+#about-page .aboutsiteTips {
+  min-width: 0;
+}
+
+#about-page .aboutsiteTips h2 {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  font-size: clamp(26px, 2.35vw, 36px);
+  line-height: 1.12;
+  word-break: keep-all;
+}
+
+#about-page .aboutsiteTips .mask {
+  display: block;
+  width: 100%;
+  height: 1.2em;
+  line-height: 1.1;
+  overflow: hidden;
+}
+
+#about-page .aboutsiteTips .mask span {
+  width: max-content;
+  max-width: 100%;
+  padding-bottom: 0;
+  white-space: nowrap;
+}
+
+#about-page .author-content-item.comic-content .comic-box {
+  left: 0;
+  width: 100%;
+  transform: none;
+  gap: 0;
+}
+
+#about-page .author-content-item.comic-content .comic-item {
+  flex: 1 1 20%;
+  min-width: 0;
+  width: auto;
+  transform: none;
+}
+
+#about-page .author-content-item.comic-content .comic-item:hover {
+  flex: 1.35 1 20%;
+  width: auto;
+}
+
+#about-page .author-content-item.comic-content .comic-item .comic-item-cover {
+  left: 0;
+  width: 100%;
+  transform: none;
+}
+
+#about-page .author-content-item.comic-content .comic-item .comic-item-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  #about-page .aboutsiteTips h2 {
+    font-size: 30px;
+  }
+
+  #about-page .author-content-item.comic-content .comic-item:hover {
+    flex: 1 1 20%;
+  }
+}

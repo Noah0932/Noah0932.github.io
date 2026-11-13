@@ -6,9 +6,16 @@
     return;
   }
 
-  const FRIENDS_DATA_PATH = ["localhost", "127.0.0.1"].includes(window.location.hostname)
-    ? "http://localhost:8788/api/friends-circle"
-    : "/api/friends-circle";
+  const isLocalHost = ["localhost", "127.0.0.1"].includes(window.location.hostname);
+  const FRIENDS_DATA_PATHS = isLocalHost
+    ? [
+      "http://localhost:8788/api/friends-circle",
+      "https://blog.noah0932.top/api/friends-circle",
+    ]
+    : [...new Set([
+      "/api/friends-circle",
+      "https://blog.noah0932.top/api/friends-circle",
+    ])];
   const FALLBACK_AVATAR = "/assets/images/181f27c2864d-bitbug_favicon.ico";
   const CACHE_TTL = 5 * 60 * 1000;
   const STORAGE_KEY = "noah-friends-circle-cache-v1";
@@ -192,11 +199,18 @@
   };
 
   const loadPosts = async signal => {
-    const response = await fetch(FRIENDS_DATA_PATH, { signal, cache: "default" });
-    if (!response.ok) throw new Error(`加载朋友圈数据失败：HTTP ${response.status}`);
-    const posts = await response.json();
-    if (!Array.isArray(posts)) throw new Error("朋友圈数据格式错误");
-    return posts.filter(post => post && post.link && post.title);
+    let lastError = null;
+    for (const path of FRIENDS_DATA_PATHS) {
+      const response = await fetch(path, { signal, cache: "default" });
+      if (!response.ok) {
+        lastError = new Error(`加载朋友圈数据失败：HTTP ${response.status}`);
+        continue;
+      }
+      const posts = await response.json();
+      if (!Array.isArray(posts)) throw new Error("朋友圈数据格式错误");
+      return posts.filter(post => post && post.link && post.title);
+    }
+    throw lastError || new Error("朋友圈接口不可用");
   };
 
   const abort = () => {
@@ -224,7 +238,7 @@
 
     try {
       const posts = await loadPosts(controller.signal);
-      if (currentVersion !== requestVersion || document.getElementById("friends-circle-container") !== container) return;
+      if (currentVersion !== requestVersion || document.querySelector("#friends-circle-container, #fcircle-container") !== container) return;
       cachedPosts = posts;
       cachedAt = Date.now();
       storePosts(posts);
