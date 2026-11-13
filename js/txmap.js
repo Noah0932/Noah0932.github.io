@@ -1,16 +1,29 @@
-//get请求
-$.ajax({
-    type: 'get',
-    url: 'https://apis.map.qq.com/ws/location/v1/ip',
-    data: {
-        key:'KZCBZ-W77WT-2BQXI-LLGEZ-REID6-SVBUT',
-        output: 'jsonp',
-    },
-    dataType: 'jsonp',
-    success: function (res) {
-        ipLocation = res;
-    }
-})
+// 欢迎语不是首屏内容：只在页面确实有欢迎卡片时，并且浏览器空闲后才请求定位。
+let ipLocation = null;
+let welcomeRequestStarted = false;
+
+function loadIpLocation() {
+    if (welcomeRequestStarted || !document.getElementById("welcome-info")) return;
+    welcomeRequestStarted = true;
+
+    const callbackName = `__noahIpLocation_${Date.now()}`;
+    const script = document.createElement("script");
+    const cleanup = () => {
+        delete window[callbackName];
+        script.remove();
+    };
+
+    window[callbackName] = response => {
+        ipLocation = response;
+        cleanup();
+        showWelcome();
+    };
+    script.src = `https://apis.map.qq.com/ws/location/v1/ip?key=KZCBZ-W77WT-2BQXI-LLGEZ-REID6-SVBUT&output=jsonp&callback=${callbackName}`;
+    script.async = true;
+    script.onerror = cleanup;
+    document.head.appendChild(script);
+    window.setTimeout(cleanup, 6000);
+}
 function getDistance(e1, n1, e2, n2) {
     const R = 6371
     const { sin, cos, asin, PI, hypot } = Math
@@ -28,6 +41,8 @@ function getDistance(e1, n1, e2, n2) {
 }
 
 function showWelcome() {
+
+    if (!ipLocation?.result?.location || !ipLocation?.result?.ad_info) return;
 
     let dist = getDistance(32.967890, 117.218868, ipLocation.result.location.lng, ipLocation.result.location.lat); //这里记得换成自己的经纬度
     let pos = ipLocation.result.ad_info.nation;
@@ -239,6 +254,14 @@ function showWelcome() {
          console.log("Pjax无法获取元素")
     }
 }
-window.onload = showWelcome;
-// 如果使用了pjax在加上下面这行代码
-document.addEventListener('pjax:complete', showWelcome);
+function scheduleWelcome() {
+    if (!document.getElementById("welcome-info")) return;
+    if ("requestIdleCallback" in window) {
+        window.requestIdleCallback(loadIpLocation, { timeout: 2500 });
+    } else {
+        window.setTimeout(loadIpLocation, 1200);
+    }
+}
+
+document.addEventListener("DOMContentLoaded", scheduleWelcome, { once: true });
+document.addEventListener("pjax:complete", scheduleWelcome);

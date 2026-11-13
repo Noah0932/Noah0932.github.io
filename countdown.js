@@ -184,6 +184,8 @@ const CountdownTimer = (() => {
 
     let timer;
     const start = () => {
+        if (!document.getElementById('countRight')) return;
+        if (timer) clearInterval(timer);
         injectStyles();
         updateCountdown();
         timer = setInterval(updateCountdown, 600000);

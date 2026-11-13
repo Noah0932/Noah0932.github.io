@@ -11,6 +11,7 @@
     : "/api/friends-circle";
   const FALLBACK_AVATAR = "/assets/images/181f27c2864d-bitbug_favicon.ico";
   const CACHE_TTL = 5 * 60 * 1000;
+  const STORAGE_KEY = "noah-friends-circle-cache-v1";
   const MAX_SUMMARY_LENGTH = 500;
   const ALLOWED_SUMMARY_TAGS = new Set([
     "A", "B", "BLOCKQUOTE", "BR", "CODE", "EM", "H1", "H2", "H3", "H4",
@@ -25,6 +26,25 @@
   let requestVersion = 0;
   let cachedPosts = null;
   let cachedAt = 0;
+
+  const readStoredPosts = () => {
+    try {
+      const stored = JSON.parse(window.sessionStorage.getItem(STORAGE_KEY) || "null");
+      if (!stored || !Array.isArray(stored.posts) || Date.now() - stored.cachedAt >= CACHE_TTL) return;
+      cachedPosts = stored.posts;
+      cachedAt = stored.cachedAt;
+    } catch {
+      // 隐私模式或禁用存储时继续使用内存缓存。
+    }
+  };
+
+  const storePosts = posts => {
+    try {
+      window.sessionStorage.setItem(STORAGE_KEY, JSON.stringify({ posts, cachedAt }));
+    } catch {
+      // 不影响页面渲染。
+    }
+  };
 
   const createElement = (tag, className, text) => {
     const element = document.createElement(tag);
@@ -53,6 +73,16 @@
   const createMessage = (message, isError = false) => {
     const wrapper = createElement("div", isError ? "friends-circle-error" : "friends-circle-empty");
     wrapper.appendChild(createElement("p", "", message));
+    if (isError) {
+      const retry = createElement("button", "friends-circle-retry", "重新加载");
+      retry.type = "button";
+      retry.addEventListener("click", () => {
+        cachedPosts = null;
+        cachedAt = 0;
+        init();
+      });
+      wrapper.appendChild(retry);
+    }
     return wrapper;
   };
 
@@ -162,7 +192,7 @@
   };
 
   const loadPosts = async signal => {
-    const response = await fetch(FRIENDS_DATA_PATH, { signal, cache: "no-cache" });
+    const response = await fetch(FRIENDS_DATA_PATH, { signal, cache: "default" });
     if (!response.ok) throw new Error(`加载朋友圈数据失败：HTTP ${response.status}`);
     const posts = await response.json();
     if (!Array.isArray(posts)) throw new Error("朋友圈数据格式错误");
@@ -176,8 +206,10 @@
   };
 
   const init = async () => {
-    const container = document.getElementById("friends-circle-container");
+    const container = document.querySelector("#friends-circle-container, #fcircle-container");
     if (!container || container.dataset.friendsCircleReady === "true") return;
+
+    if (!cachedPosts) readStoredPosts();
 
     if (cachedPosts && Date.now() - cachedAt < CACHE_TTL) {
       renderPosts(container, cachedPosts);
@@ -195,6 +227,7 @@
       if (currentVersion !== requestVersion || document.getElementById("friends-circle-container") !== container) return;
       cachedPosts = posts;
       cachedAt = Date.now();
+      storePosts(posts);
       renderPosts(container, posts);
     } catch (error) {
       if (error.name === "AbortError" || currentVersion !== requestVersion) return;
