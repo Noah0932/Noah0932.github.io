@@ -3,6 +3,50 @@
   
   
   <url>
+    <loc>https://blog.noah0932.top/2026/11/16/%E4%BA%A4%E8%A1%8C%E6%B2%83%E5%BE%B7%EF%BC%8C%E6%8B%BF%E4%B8%8B%EF%BC%81/</loc>
+    
+    <lastmod>2026-11-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://blog.noah0932.top/api/link.json</loc>
+    
+    <lastmod>2026-11-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://blog.noah0932.top/air-conditioner/</loc>
+    
+    <lastmod>2026-11-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://blog.noah0932.top/about/</loc>
+    
+    <lastmod>2026-11-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
     <loc>https://blog.noah0932.top/cookies/</loc>
     
     <lastmod>2026-11-13</lastmod>
@@ -91,17 +135,6 @@
   
   
   <url>
-    <loc>https://blog.noah0932.top/air-conditioner/</loc>
-    
-    <lastmod>2026-11-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  
-  
-  <url>
     <loc>https://blog.noah0932.top/link/</loc>
     
     <lastmod>2026-11-13</lastmod>
@@ -125,17 +158,6 @@
   
   <url>
     <loc>https://blog.noah0932.top/equipment/</loc>
-    
-    <lastmod>2026-11-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://blog.noah0932.top/about/</loc>
     
     <lastmod>2026-11-13</lastmod>
     
@@ -182,17 +204,6 @@
     <loc>https://blog.noah0932.top/assets/manifest.json</loc>
     
     <lastmod>2026-07-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://blog.noah0932.top/api/link.json</loc>
-    
-    <lastmod>2026-07-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -278,7 +289,7 @@
   
   
   <url>
-    <loc>https://blog.noah0932.top/posts/vercel-umami/</loc>
+    <loc>https://blog.noah0932.top/posts/Pick-up-a-fallen-autumn-leaf/</loc>
     
     <lastmod>2026-07-15</lastmod>
     
@@ -289,7 +300,7 @@
   
   
   <url>
-    <loc>https://blog.noah0932.top/posts/Pick-up-a-fallen-autumn-leaf/</loc>
+    <loc>https://blog.noah0932.top/posts/vercel-umami/</loc>
     
     <lastmod>2026-07-15</lastmod>
     
@@ -322,7 +333,7 @@
   
   
   <url>
-    <loc>https://blog.noah0932.top/posts/about-yellophotos-China-police/</loc>
+    <loc>https://blog.noah0932.top/posts/ICBC&&Jiaotong%20Bank/</loc>
     
     <lastmod>2026-07-15</lastmod>
     
@@ -333,7 +344,7 @@
   
   
   <url>
-    <loc>https://blog.noah0932.top/posts/ICBC&&Jiaotong%20Bank/</loc>
+    <loc>https://blog.noah0932.top/posts/about-yellophotos-China-police/</loc>
     
     <lastmod>2026-07-15</lastmod>
     
@@ -501,7 +512,7 @@
 
   <url>
     <loc>https://blog.noah0932.top/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
